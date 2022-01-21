@@ -1,5 +1,4 @@
-# My-First-Repository
-
+# Interest-Calculation-Code
 
     import java.util.Scanner;
 
