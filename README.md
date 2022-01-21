@@ -1,22 +1,27 @@
 # My-First-Repository
 
-import java.util.Scanner;
 
-public class KboatInterest
-{
+    import java.util.Scanner;
+
+        public class KboatInterest
+    {
+   
     public static void main(String args[]) {
-        Scanner in = new Scanner(System.in);
-        System.out.print("Enter the sum: ");
+       
+       Scanner in = new Scanner(System.in);
+       
+       System.out.print("Enter the sum: ");
         double p = in.nextDouble();
-        System.out.print("Enter rate: ");
+      
+      System.out.print("Enter rate: ");
         double r = in.nextDouble();
         System.out.print("Enter time: ");
         int t = in.nextInt();
         System.out.println("Enter type of Interest");
         System.out.print("('S'- Simple Interest 'C'- Compound Interest): ");
         char type = in.next().charAt(0);
-        boolean isTypeValid = true;
-
+     
+     boolean isTypeValid = true;
         double interest = 0.0;
 
         switch (type) {
